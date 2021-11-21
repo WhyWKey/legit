@@ -22,7 +22,7 @@ if not isfolder("alora/"..tostring(game.GameId)) then
     makefolder("alora/"..tostring(game.GameId))
 end
 --vars
-local library,menu,tabholder = loadstring(game:HttpGet("https://pastebin.com/raw/YM2Fxmuu"))()
+local library,menu,tabholder = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhyWKey/legit/main/Ev0er-lib.lua"))()
 local userInputService = game:GetService("UserInputService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local runService = game:GetService("RunService")
