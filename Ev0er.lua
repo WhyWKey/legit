@@ -891,7 +891,7 @@ otherGroup:addToggle({text = "Old sounds",callback = function()
 	pcall(function()
 		local player = game:GetService("Players").LocalPlayer.Character
 		if player.EquippedTool.Value == "AK47" then
-			player.Gun.Shoot.SoundId = "rbxassetid://168436671"
+			player.Gun.Shoot.SoundId = "rbxassetid://749519885"
 		end
 
 		if player.EquippedTool.Value == "M4A1" then
@@ -963,7 +963,7 @@ otherGroup:addToggle({text = "Old sounds",callback = function()
 		end
 
 		if player.EquippedTool.Value == "Scout" then
-			player.Gun.Shoot.SoundId = "rbxassetid://1112858108"
+			player.Gun.Shoot.SoundId = "rbxassetid://2476571739"
             player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
             player.Gun.Zoom.PlaybackSpeed = 1
 		end
